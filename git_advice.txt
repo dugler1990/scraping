@@ -1,0 +1,21 @@
+# Commit changes on local to remote repository
+ navigate to the directory of the project containing the local .git
+ 1. git pull 
+    This is to make sure the state of the local and remote repositories are the same before you do you commit files
+	( here you will have to resolve any conflicts )  
+	
+ 2. git add . 
+    put all changes into the "staging area"
+	( you can check the changes that have been made by checking 'git status' )
+ 3. git commit -m "<my git message>"
+    commits changes locally
+ 4. git push 
+    commits changes remotely
+	
+	
+	
+# Colaborate : 
+
+1. fork original repo
+2. commit locally
+3. create 'pull request' on website.
